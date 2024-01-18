@@ -13,11 +13,17 @@ This can be combined with `pbcopy`, like:
 
 after which the contents of `file` will be accessible at a URL which has been copied to your pasteboard.
 
-## Installation
+## Installation for use with my server
 
 ``` bash
+git clone https://github.com/tucommenceapousser/hasteclient
+gem build haste.gemspec
 gem install haste
+haste file.txt
 ```
+
+## PS
+ive modded this client for obtain url and raw url directly without use an option
 
 ## Configuration
 
