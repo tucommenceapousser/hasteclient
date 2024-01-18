@@ -13,6 +13,14 @@ This can be combined with `pbcopy`, like:
 
 after which the contents of `file` will be accessible at a URL which has been copied to your pasteboard.
 
+## Run on replit
+[![Run on Replit](https://replit.com/badge/github/tucommenceapousser/hasteclient)](https://replit.com/github/tucommenceapousser/hasteclient)
+
+```
+gem build haste.gemspec
+gem install
+```
+
 ## Installation for use with my server
 
 ``` bash
